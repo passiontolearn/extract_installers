@@ -2,8 +2,8 @@ import sys
 import os
 import subprocess
 
-srcPath = r'C:\\oldversion.com\Installers\\Driver\\'
-destPath = r'D:\\Extracted_Installers\\'
+srcPath = r'F:\\Installers\\Development\\'
+destPath = r'F:\\Extracted_Installers\\'
 SevenZip = r'C:\\Program Files\\7-Zip\\7z.exe'
 def main():
     Check_Paths_Exist()
@@ -43,4 +43,4 @@ def Check_Paths_Exist():
         sys.exit("Please make sure destination path '{}' exists (!)".format(destPath))
 
 if __name__ == "__main__":
-	main()
+    main()
