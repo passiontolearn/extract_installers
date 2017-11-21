@@ -1,5 +1,5 @@
-::@echo off &cls
-::SETLOCAL EnableDelayedExpansion
+:: Requires UniExtract2
+:: see: https://github.com/Bioruebe/UniExtract2/releases
 
 set CurrentPath=%~dp0
 set UniExtract="D:\__Tools\win\UniExtract2\UniExtract.exe"
